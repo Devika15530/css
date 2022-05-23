@@ -1,0 +1,44 @@
+p::first-line{
+    color:red
+    
+}
+p::first-letter {
+    color: #6f46cf;
+    font-size: xx-large;
+  }
+ 
+  
+  ::marker { 
+    color: red;
+    font-size: 23px;
+  }
+  ::selection
+  {
+      color: burlywood;
+      background-color: chartreuse;
+  }
+
+  p:hover
+  {
+      color: green;
+  }
+  p::after
+  {
+      color: #6f46cf;
+  }
+  /*
+   li:first-child{
+      color: brown;
+  }*/
+  li:nth-child(2)
+  {
+      color: chartreuse;
+  }
+/*add content  after p tag*/
+  p::after { 
+    content: " - Remember this";
+    background-color: yellow;
+    color: red;                                     
+    font-weight: bold;
+  }
+

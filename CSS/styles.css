@@ -1,0 +1,63 @@
+/* universal selector*/
+
+* {
+    text-align: center;
+    color: rgb(50, 50, 120);
+  }
+
+
+/*p is a selector*/
+p
+{
+    color: pink;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+/* Simple selectors id,name,class*/
+/* id selector*/
+#first
+{
+    background-color: aquamarine;
+}
+/* class selector*/
+
+.second
+{
+    background-color:blueviolet
+}
+
+
+h1.second
+{
+    background-color:cornflowerblue;
+}
+
+body
+{
+    background-image:url("bg.jpg");
+    background-repeat: repeat-x;
+}
+
+/*Child selectors*/
+body > p{
+    background-color: chartreuse;
+}
+
+div > p{
+    background-color: coral;
+}
+/* Descendent selector*/
+div p{
+    background-color: chartreuse;
+}
+/*Adjacent sibling selector*/
+
+p+h3{
+    color: rgb(255, 36, 36);
+}
+
+p~h1{
+    background-color: violet;
+}

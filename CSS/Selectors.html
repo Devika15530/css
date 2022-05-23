@@ -1,0 +1,44 @@
+
+<link rel="stylesheet" href="styles.css">
+<body>
+    <p>Hello</p>
+
+    <!--Child selector example-->
+     <div>
+         <p>div is direct child and p is indirect child of body
+             
+         </p>
+     </div>
+     <div>
+         <p>Direct child of p</p>
+         <h1>
+             <p>Indirect child of div</p>
+         </h1>
+     </div>
+
+     <!--Descendent selector example-->
+     <div class="descendent">
+        <h3>Direct child of p</h3>
+        <h1>
+            <h3>Indirect child of div</h3>
+        </h1>
+    </div>
+
+    <!--Adjacent selectors-->
+    <div>
+        <p>hey</p>
+        <h3>SIBILING OF P</h3>
+        <h3>SIBILING 2 ADJACENT OF P</h3>
+
+        <P>HEY</P>
+        <H2>second</H2>
+        <H1>ADJACENT SIBILING OF H2</H1>
+    </div>
+
+    <!--General sibling selectors-->
+    <div>
+        <p>Hey General  sibling selectors</p>
+        <h1>first General SIBILING</h1>
+        <h1>second General sibling</h1>
+    </div>
+</body>

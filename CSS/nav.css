@@ -1,0 +1,49 @@
+
+
+div >ul{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-content: flex-start;
+    border: blue;
+  }
+
+ul > li{
+    padding-right: 20px;
+    list-style: none;
+    font-size: 20px;
+    text-align-last: right;
+    border: 1px brown;
+}
+.flex-container >.left
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container
+{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-content: flex-start;
+    border: blue;
+
+}
+button
+{
+    background-color: rgb(36, 77, 224);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+h4
+{
+    padding-right: 20px;
+    list-style: none;
+    font-size: 20px;
+    text-align-last: right;
+    align-items:flex-start;
+    margin-left: 0%;
+}
